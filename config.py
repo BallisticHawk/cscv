@@ -1,7 +1,7 @@
 "Central configuration"
 import os
 
-PHOTOS_BUCKET = os.environ['g15-assignment']
+PHOTOS_BUCKET = os.environ['PHOTOS_BUCKET']
 FLASK_SECRET = "something-random"
 
 DATABASE_HOST = os.environ['DATABASE_HOST'] if 'DATABASE_HOST' in os.environ else None
