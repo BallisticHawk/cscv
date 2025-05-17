@@ -1,6 +1,5 @@
 "Database layer - the dynamo version"
 import uuid
-
 import boto3
 
 def list_employees():
